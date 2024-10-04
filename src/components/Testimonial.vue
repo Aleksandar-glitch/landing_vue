@@ -5,26 +5,26 @@ const heading = "Testimonials";
 const subHeading = "Our Customers Feedbck";
 const testimonials = [
   {
-    name: "James Anderson",
-    designation: "Facebook, Product Lead",
+    name: "Heath Gledhill",
+    designation: "Integrated Design and Precincts Capability Leader, Aurecon",
     quote:
-      '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."',
-    photo: "images/person_1.jpg",
+      '"Neighbourlytics helped us see the community in a quantifiable way, with new information about popular amenities and gaps. This gave us new visibility into the local context, and helped us understand a ‘place’ in a more granular way, before diving into solutions. This in turn has driven  a richer level of innovation within our design teams approach."',
+    photo: "images/person_1.png",
   },
   {
-    name: "James Anderson",
-    designation: "Facebook, Product Lead",
+    name: "Steve McGrath",
+    designation: "Place Maker, City of Monash",
     quote:
-      '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."',
-    photo: "images/person_2.jpg",
+      '"In a lifetime of social sciences I have never seen anything as good as the system you guys have put together… it’s a stunning piece of work. Grounded in solid theory, nimble in its analysis, insightful in its results and a very practical tool for us within Local government to respond and change things."',
+    photo: "images/person_2.png",
   },
-  {
-    name: "James Anderson",
-    designation: "Facebook, Product Lead",
-    quote:
-      '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."',
-    photo: "images/person_3.jpg",
-  },
+  // {
+  //   name: "James Anderson",
+  //   designation: "Facebook, Product Lead",
+  //   quote:
+  //     '"Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia."',
+  //   photo: "images/person_3.jpg",
+  // },
 ];
 </script>
 
@@ -142,7 +142,7 @@ const testimonials = [
                 </div>
               </div>
             </div>
-            <div class="item">
+            <!-- <div class="item">
               <div class="untree_co-testimonial d-flex">
                 <div class="text">
                   <blockquote>
@@ -165,7 +165,7 @@ const testimonials = [
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

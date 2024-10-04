@@ -1,63 +1,41 @@
 <script setup>
-import mainPhoto from "../assets/images/hero.svg";
+import mainPhoto from "../assets/images/hero.png";
 import { themeColor } from "../data/items";
 
-const heroHeading = "Promote Your Products by Colorlib";
-const buttonSeeFeature = "See Features";
-const buttonPricing = "Pricing";
+const heroHeading1 = "Lifestyle insights for ";
+const heroHeading2 = "any location";
+const buttonStartFree = "Start Free";
+const buttonViewPricing = "View pricing";
 </script>
 
 <template>
   <div class="untree_co-hero" id="home-section">
-    <div class="container">
+    <div class="">
       <div class="row align-items-center">
         <div class="col-12">
-          <div class="dots"></div>
+          <!-- <div class="dots"></div> -->
           <div class="row align-items-center">
-            <div
-              class="col-lg-7 ml-auto order-lg-2"
-              data-aos="fade-right"
-              data-aos-delay="400"
-            >
-              <img :src="mainPhoto" alt="Image" class="img-fluid" />
-            </div>
-            <div class="col-lg-5">
-              <h1 class="heading" data-aos="fade-up" data-aos-delay="0">
-                {{ heroHeading }}
+            <div class="col-lg-2"></div>
+            <div class="col-lg-3" style="padding-top: 100px;">
+              <h1 class="heading  text-primary" data-aos="fade-up" data-aos-delay="0">
+                {{ heroHeading1 }}
+                <span class="heading  text-primary-plum">{{ heroHeading2 }}</span>
               </h1>
-              <div class="excerpt" data-aos="fade-up" data-aos-delay="100">
+              <div class="excerpt text-primary" data-aos="fade-up" data-aos-delay="100">
                 <p>
-                  Another cool free html css template by
-                  <span
-                    style="
-                      background-color: rgba(64, 123, 255, 0.07);
-                      color: #407bff;
-                    "
-                    >Colorlib</span
-                  >
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast
+                  Unprecedented visibility into the community around your asset,
+                  <strong>every month</strong>
                 </p>
               </div>
               <p data-aos="fade-up" data-aos-delay="200">
-                <a
-                  href="#features-section"
-                  class="btn btn-primary smoothscroll"
-                  style="margin-right: 5px"
-                  :style="[
-                    { background: themeColor },
-                    { borderColor: themeColor },
-                  ]"
-                  >{{ buttonSeeFeature }}</a
-                >
-                <a
-                  href="#pricing-section"
-                  class="btn btn-outline-primary smoothscroll pricing"
-                  :style="[{ color: themeColor }, { borderColor: themeColor }]"
-                  >{{ buttonPricing }}</a
-                >
+                <a href="#features-section" class="btn btn-primary smoothscroll" style="margin-right: 5px">{{
+                  buttonStartFree }}</a>
+                <a href="#pricing-section" class="btn btn-outline-primary smoothscroll pricing">{{ buttonViewPricing
+                  }}</a>
               </p>
+            </div>
+            <div class="col-lg-7 ml-auto order-lg-2" data-aos="fade-right" data-aos-delay="400">
+              <img :src="mainPhoto" alt="Image" style="width: 100%;" />
             </div>
           </div>
         </div>

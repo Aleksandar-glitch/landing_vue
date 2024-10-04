@@ -1,30 +1,29 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Hero from "./components/Hero.vue";
-import Service1 from "./components/Service1.vue";
-import Service2 from "./components/Service2.vue";
-import Feature from "./components/Feature.vue";
-import Pricing from "./components/Pricing.vue";
-import Advantage from "./components/Advantage.vue";
+import Managers from "./components/Managers.vue";
+import Vimeo from "./components/Vimeo.vue";
+import Visitors from "./components/Visitors.vue";
+import Reason from "./components/Reason.vue";
+import Exposure from "./components/Exposure.vue";
+import Residents from "./components/Residents.vue";
+import Walkability from "./components/Walkability.vue";
 import Testimonial from "./components/Testimonial.vue";
-import About from "./components/About.vue";
-import Blog from "./components/Blog.vue";
-import Contact from "./components/Contact.vue";
-import Footer from "./components/Footer.vue";
+import Lifestyle from "./components/Lifestyle.vue";
+import ContactFooter from "./components/ContactFooter.vue";
 </script>
 
 <template>
   <Header />
   <Hero />
-  <Service1 />
-  <Service2 />
-  <Feature />
-  <Pricing />
-  <Pricing />
-  <Advantage />
+  <Managers />
+  <Vimeo />
+  <Visitors />
+  <Reason />
+  <Exposure />
+  <Residents />
+  <Walkability />
   <Testimonial />
-  <About />
-  <Blog />
-  <Contact />
-  <Footer />
+  <Lifestyle />
+  <ContactFooter />
 </template>
