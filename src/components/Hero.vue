@@ -13,10 +13,9 @@ const buttonViewPricing = "View pricing";
     <div class="">
       <div class="row align-items-center">
         <div class="col-12">
-          <!-- <div class="dots"></div> -->
           <div class="row align-items-center">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-3" style="padding-top: 100px;">
+            <!-- <div class="col-lg-2 hero-left"></div> -->
+            <div class="col-lg-5" style="padding: 100px 0 100px 50px;">
               <h1 class="heading  text-primary" data-aos="fade-up" data-aos-delay="0">
                 {{ heroHeading1 }}
                 <span class="heading  text-primary-plum">{{ heroHeading2 }}</span>
@@ -34,7 +33,7 @@ const buttonViewPricing = "View pricing";
                   }}</a>
               </p>
             </div>
-            <div class="col-lg-7 ml-auto order-lg-2" data-aos="fade-right" data-aos-delay="400">
+            <div class="col-lg-7 ml-auto order-lg-2" id="hero-img" data-aos="fade-right" data-aos-delay="400">
               <img :src="mainPhoto" alt="Image" style="width: 100%;" />
             </div>
           </div>

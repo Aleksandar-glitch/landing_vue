@@ -14,13 +14,13 @@ import logo from "../assets/images/logo.svg";
           <li class="cta-primary" style="margin-right: 5px;">
             <a href="#">Start Free</a>
           </li>
-          <li class="cta-button-outline"><a href="#">Book a call</a></li>
+          <!-- <li class="cta-button-outline"><a href="#">Book a call</a></li> -->
         </ul>
         <ul class="js-clone-nav d-none d-lg-inline-block site-menu float-right">
           <li class="active">
             <a href="#" class="nav-link">How it works</a>
           </li>
-          <li><a href="#" class="nav-link">Pricing</a></li>
+          <!-- <li><a href="#" class="nav-link">Pricing</a></li> -->
           <li><a href="#" class="nav-link">Resources</a></li>
           <li><a href="#" class="nav-link">Contact</a></li>
         </ul>

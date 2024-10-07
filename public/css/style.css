@@ -3,7 +3,7 @@ body {
   line-height: 1.6;
   background: #ffffff;
   overflow-x: hidden;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #939393;
 }
@@ -85,7 +85,7 @@ h4,
   padding-left: 30px;
   padding-right: 30px;
   border-radius: 30px;
-  font-size: 18px;
+  font-size: 16px;
   /* text-transform: uppercase; */
   font-weight: 700;
   letter-spacing: 0.05rem;
@@ -181,6 +181,7 @@ h4,
   position: absolute;
   width: 100%;
   z-index: 10;
+  background: white;
 }
 
 .site-nav a {
@@ -209,7 +210,7 @@ h4,
 }
 
 .site-nav .site-navigation .site-menu > li > a {
-  font-size: 18px;
+  font-size: 16px;
   padding: 10px 15px;
   display: inline-block;
   text-decoration: none !important;
@@ -794,7 +795,7 @@ h4,
 
 .untree_co-hero,
 .untree_co-hero > .container > .row {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 @media (max-width: 991.98px) {
@@ -958,7 +959,7 @@ h4,
 }
 
 .service .service-contents h3 {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .service.horizontal .service-icon {
@@ -1521,6 +1522,7 @@ h4,
 
 .align-center {
   align-self: center;
+  text-align: center;
 }
 
 .manager-imgs {
@@ -1537,7 +1539,15 @@ h4,
 
 #home-section {
   padding-bottom: 0;
+  /* background: url("../images/hero.png") right top;
+  background-repeat: no-repeat; */
 }
+
+/* #hero-img {
+  background: url("../images/hero.png") right top;
+  background-repeat: no-repeat;
+} */
+
 #lifestyle {
   z-index: 2;
 }
@@ -1560,8 +1570,47 @@ h4,
   font-size: 24px;
 }
 
-
 .footer-right {
   display: flex;
   flex-direction: column;
+}
+@media (max-width: 991.98px) {
+  #manager-section {
+    width: 100%;
+    border-radius: 0;
+    margin-top: 0;
+  }
+  .manager-imgs {
+    flex-flow: column;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .manager-imgs div {
+    width: 20%;
+  }
+  .hero-left {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .manager-imgs div {
+    width: 33%;
+  }
+}
+@media (max-width: 767.98px) {
+  .manager-imgs div {
+    width: 50%;
+  }
+}
+@media (max-width: 575.98px) {
+  .manager-imgs div {
+    width: 80%;
+  }
+}
+@media (max-width: 336.98px) {
+  .pricing {
+    margin-top: 10px;
+  }
 }

@@ -24,6 +24,6 @@ import ContactFooter from "./components/ContactFooter.vue";
   <Residents />
   <Walkability />
   <Testimonial />
-  <Lifestyle />
+  <!-- <Lifestyle /> -->
   <ContactFooter />
 </template>
