@@ -3,7 +3,7 @@ import { themeColor, siteName } from "../data/items";
 import logo from "../assets/images/logo.svg";
 </script>
 <template>
-  <nav class="site-nav dark js-site-navbar mb-5 site-navbar-target">
+  <nav class="site-nav dark js-site-navbar site-navbar-target">
     <div class="container">
       <div class="site-navigation">
         <a href="" class="logo m-0 float-left">

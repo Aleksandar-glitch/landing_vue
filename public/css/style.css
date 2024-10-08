@@ -437,7 +437,9 @@ h4,
 }
 
 .site-nav.dark .site-navigation .site-menu > li > a:hover {
-  color: #000000;
+  color: #ffffff;
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .site-nav.dark .site-navigation .site-menu > li.active > a {
@@ -1497,9 +1499,9 @@ h4,
   width: 30px;
   height: 30px;
   position: relative;
-  background: #777;
-  border-radius: 50%;
-  color: #ffffff;
+  background: #ffffff;
+  border-radius: 7px;
+  color: #000000;
 }
 
 .site-footer .social li a:before {
@@ -1522,7 +1524,7 @@ h4,
 
 .align-center {
   align-self: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .manager-imgs {
@@ -1539,8 +1541,9 @@ h4,
 
 #home-section {
   padding-bottom: 0;
-  /* background: url("../images/hero.png") right top;
-  background-repeat: no-repeat; */
+  background: url("../images/hero.png") right;
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
 
 /* #hero-img {
@@ -1560,11 +1563,11 @@ h4,
 
 #footer-section {
   background-color: #242b6b;
-  margin-top: -150px;
-  padding-top: 150px;
+  /* margin-top: -150px; */
+  /* padding-top: 150px; */
 }
 
-#footer-section div div div span {
+.footer-context {
   color: #ffffff;
   font-weight: 700;
   font-size: 24px;
@@ -1573,6 +1576,13 @@ h4,
 .footer-right {
   display: flex;
   flex-direction: column;
+}
+.footer-right a {
+  color: #ffffff;
+  margin-bottom: 20px;
+  padding-left: 0;
+  line-height: 1.111em;
+  font-size: 18px;
 }
 @media (max-width: 991.98px) {
   #manager-section {
@@ -1592,6 +1602,19 @@ h4,
   .hero-left {
     display: none;
   }
+  #hero-img {
+    display: block;
+  }
+
+  #home-section {
+    background: none;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero-img {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
@@ -1599,16 +1622,29 @@ h4,
     width: 33%;
   }
 }
+
+/* #hero-part {
+  padding: 5rem 0;
+}
+
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  #hero-part {
+    padding: 0;
+  }
+} */
+
 @media (max-width: 767.98px) {
   .manager-imgs div {
     width: 50%;
   }
 }
+
 @media (max-width: 575.98px) {
   .manager-imgs div {
     width: 80%;
   }
 }
+
 @media (max-width: 336.98px) {
   .pricing {
     margin-top: 10px;

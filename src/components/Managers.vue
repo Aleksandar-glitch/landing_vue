@@ -12,29 +12,39 @@ const service1SubHeading = "Find your accessible visitors";
   <div class="untree_co-section bg-light" id="manager-section">
     <div class="container">
       <div class="row justify-content-between">
-        <div class="col-lg-4 align-center">
+        <div class="col-lg-4 string-line">
           <span>Trusted by Australia's most</span>
-          <br/>
+          <br />
           <span>successful place managers</span>
         </div>
-        <div class="col-lg-8 manager-imgs" data-aos="fade-right" data-aos-delay="400">
-          <div>
+        <div class="col-lg-8 manager-imgs">
+          <div data-aos="zoom-in" data-aos-delay="300">
             <img :src="manager1" alt="Image" style="width: 100%;" />
           </div>
-          <div>
+          <div data-aos="zoom-in" data-aos-delay="600">
             <img :src="manager2" alt="Image" style="width: 100%;" />
           </div>
-          <div>
-          <img :src="manager3" alt="Image" style="width: 100%;" />
+          <div data-aos="zoom-in" data-aos-delay="900">
+            <img :src="manager3" alt="Image" style="width: 100%;" />
           </div>
-          <div>
-          <img :src="manager4" alt="Image" style="width: 100%;" />
+          <div data-aos="zoom-in" data-aos-delay="1200">
+            <img :src="manager4" alt="Image" style="width: 100%;" />
           </div>
-          <div>
-          <img :src="manager5" alt="Image" style="width: 100%;" />
+          <div data-aos="zoom-in" data-aos-delay="1600">
+            <img :src="manager5" alt="Image" style="width: 100%;" />
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style>
+.string-line {
+  align-self: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #4f4f4f;
+}
+</style>

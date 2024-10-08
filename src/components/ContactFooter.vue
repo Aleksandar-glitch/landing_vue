@@ -29,12 +29,12 @@ const socialItems = [
 <template>
   <div class="untree_co-section" id="footer-section">
     <div class="container">
+          <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+            <img :src="logoImg" alt="Image" style="max-width: 340px;" />
+          </div>
       <div class="row justify-content-between">
         <div class="col-lg-5 align-center">
-          <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
-            <img :src="logoImg" alt="Image" style="width: 80%;" />
-          </div>
-          <span class="mb-4" data-aos="fade-up" data-aos-delay="100">
+          <span class="mb-4 footer-context" data-aos="fade-up" data-aos-delay="100">
             Get free monthly neighbourhood insights
           </span>
           <div class="mb-4 site-footer" data-aos="fade-up" data-aos-delay="200">
