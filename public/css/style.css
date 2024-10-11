@@ -437,9 +437,9 @@ h4,
 }
 
 .site-nav.dark .site-navigation .site-menu > li > a:hover {
-  color: #ffffff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #4f4f4f;
+  /* background-color: #007bff;
+  border-color: #007bff; */
 }
 
 .site-nav.dark .site-navigation .site-menu > li.active > a {
