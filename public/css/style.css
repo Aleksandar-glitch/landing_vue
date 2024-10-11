@@ -201,6 +201,11 @@ h4,
   font-size: 24px;
 }
 
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
 .site-nav .site-navigation .site-menu {
   margin-bottom: 0;
 }
