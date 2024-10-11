@@ -24,10 +24,10 @@ const labels = {
           <p class="sub-heading">{{ subHeading }}</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row content-row">
         <div class="col-lg-7">
           <form class="contact-form" data-aos="fade-up" data-aos-delay="100">
-            <div class="row">
+            <div class="row row-line">
               <div class="col-6">
                 <div class="form-group">
                   <label class="" for="fname">{{ labels.firstName }}</label>
@@ -41,7 +41,7 @@ const labels = {
                 </div>
               </div>
             </div>
-            <div class="row">
+            <div class="row row-line">
               <div class="col-6">
                 <div class="form-group">
                   <label class="" for="mobile">{{ labels.mobile }}</label>
@@ -55,11 +55,11 @@ const labels = {
                 </div>
               </div>
             </div>
-            <div class="form-group">
+            <div class="form-group row-line">
               <label class="" for="email">{{ labels.email }}</label>
               <input type="email" class="form-control" id="email" />
             </div>
-            <div class="form-group">
+            <div class="form-group row-line">
               <label class="" for="message">{{ labels.message }}</label>
               <textarea
                 name=""
@@ -84,31 +84,31 @@ const labels = {
         <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
           <h3 class="h5 mb-4 text-primary">{{ contactInfoHeading }}</h3>
           <address class="text-primary d-flex">
-            <span class="mt-1 icon-room mr-2"></span
+            <span class="mt-1 me-2 icon-room"></span
             ><span>{{ contactInfo.address }}</span>
           </address>
           <ul class="list-unstyled ul-links mb-4">
             <li>
               <a :href="'tel://' + contactInfo.phone1" class="d-flex"
-                ><span class="mt-1 icon-phone mr-2"></span
+                ><span class="mt-1 me-2 icon-phone mr-2"></span
                 ><span>{{ contactInfo.phone1 }}</span></a
               >
             </li>
             <li>
               <a :href="'tel://' + contactInfo.phone2" class="d-flex"
-                ><span class="mt-1 icon-phone mr-2"></span
+                ><span class="mt-1 me-2 icon-phone mr-2"></span
                 ><span>{{ contactInfo.phone2 }}</span></a
               >
             </li>
             <li>
               <a :href="'mailto:' + contactInfo.email" class="d-flex"
-                ><span class="mt-1 icon-envelope mr-2"></span
+                ><span class="mt-1 me-2 icon-envelope mr-2"></span
                 ><span>{{ contactInfo.email }}</span></a
               >
             </li>
             <li>
               <a :href="[contactInfo.website]" target="_blank" class="d-flex"
-                ><span class="mt-1 icon-globe mr-2"></span
+                ><span class="mt-1 me-2 icon-globe mr-2"></span
                 ><span>{{ contactInfo.website }}</span></a
               >
             </li>
@@ -125,6 +125,19 @@ const labels = {
 }
 .row.mb-4 {
   padding: 5rem 0;
+}
+
+.row-line {
+  margin-bottom: 40px;
+}
+
+.content-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  padding: 0;
 }
 
 .heading {
