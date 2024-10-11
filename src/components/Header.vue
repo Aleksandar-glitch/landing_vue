@@ -6,9 +6,9 @@ import logo from "../assets/images/logo.svg";
   <nav class="site-nav dark js-site-navbar site-navbar-target">
     <div class="container">
       <div class="site-navigation">
-        <a href="" class="logo m-0 float-left">
+        <router-link to="/">
           <img :src="logo" alt="Logo" style="width: 200px;" />
-        </a>
+        </router-link>
         <ul class="js-clone-nav d-none mt-1 d-lg-inline-block site-menu float-right">
           <li class="cta-button-outline" style="margin-right: 5px;"><a href="#">Log in</a></li>
           <li class="cta-primary" style="margin-right: 5px;">
@@ -18,7 +18,8 @@ import logo from "../assets/images/logo.svg";
         </ul>
         <ul class="js-clone-nav d-none d-lg-inline-block site-menu float-right">
           <li class="active">
-            <a href="#" class="nav-link">How it works</a>
+            <!-- <a href="/about" class="nav-link">How it works</a> -->
+            <router-link to="/platform">How It Works</router-link>
           </li>
           <!-- <li><a href="#" class="nav-link">Pricing</a></li> -->
           <li><a href="#" class="nav-link">Resources</a></li>

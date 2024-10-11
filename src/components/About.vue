@@ -1,7 +1,9 @@
 <script setup>
 import { themeColor } from "../data/items";
 import mainPhoto from "../assets/images/about.svg";
-
+defineOptions({
+  name: 'About'
+})
 const heading = "About";
 const subHeading = "About Us";
 const totalMembers = "50";
