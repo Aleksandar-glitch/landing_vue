@@ -24,7 +24,9 @@ const packages = [
     <div class="container">
       <div class="row pricing-title">
         <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="0">
-          <h2 class="tools-heading text-primary">{{ heading }}</h2>
+          <h2 class="tools-heading text-primary">
+            <span>{{ heading }}</span>
+          </h2>
         </div>
       </div>
       <div class="row justify-content-center">
@@ -82,9 +84,19 @@ const packages = [
 </template>
 
 <style scoped>
-.tools-heading {
+.tools-heading span {
   font-size: 70px;
   font-weight: 700;
+  background: url("../images/tools-underline.svg");
+  margin-left: -.275em;
+  margin-right: -.275em;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
 }
 
 .inner-container {

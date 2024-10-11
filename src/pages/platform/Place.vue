@@ -15,7 +15,7 @@ const question4 = "How can I contact these stakeholders?";
   <div class="untree_co-section" id="features-section">
     <div class="container">
       <div class="heading">
-        <h1 class="">How do place managers <br />use Propedia? </h1>
+        <h1 class="">How do <span>place managers</span> use Propedia? </h1>
       </div>
       <div class="row justify-content-between">
         <div class="col-lg-7" data-aos="fade-up" data-aos-delay="400">
@@ -55,6 +55,19 @@ const question4 = "How can I contact these stakeholders?";
   color: #242b6b;
   font-size: 54px;
   font-weight: 700;
+}
+
+.heading h1 span {
+  background: url("../images/place-underline.svg");
+  margin-left: -.275em;
+  margin-right: -.275em;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
 }
 
 .body-right {
