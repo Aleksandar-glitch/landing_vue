@@ -1,5 +1,5 @@
 <script setup>
-import { themeColor, contactInfo } from "../data/items";
+import { themeColor, contactInfo } from "@/data/items";
 
 const heading = "Get In Touch";
 const subHeading = "Far from the countries Vokalia and Consonantia";
@@ -9,6 +9,8 @@ const labels = {
   firstName: "First Name",
   lastName: "Last Name",
   email: "Email Address",
+  mobile: "Mobile",
+  company: "Company",
   message: "Message",
 };
 </script>
@@ -19,7 +21,7 @@ const labels = {
       <div class="row mb-4" data-aos="fade-up" data-aos-delay="0">
         <div class="col-12 text-center">
           <h2 class="heading">{{ heading }}</h2>
-          <p>{{ subHeading }}</p>
+          <p class="sub-heading">{{ subHeading }}</p>
         </div>
       </div>
       <div class="row">
@@ -36,6 +38,20 @@ const labels = {
                 <div class="form-group">
                   <label class="" for="lname">{{ labels.lastName }}</label>
                   <input type="text" class="form-control" id="lname" />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="" for="mobile">{{ labels.mobile }}</label>
+                  <input type="text" class="form-control" id="mobile" />
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="" for="company">{{ labels.company }}</label>
+                  <input type="text" class="form-control" id="company" />
                 </div>
               </div>
             </div>
@@ -58,16 +74,16 @@ const labels = {
               class="btn btn-primary"
               :style="[
                 { backgroundColor: themeColor },
-                { borderColor: themeColor },
               ]"
+              style="margin-top: 24px;"
             >
               {{ buttonSendMessage }}
             </button>
           </form>
         </div>
         <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="h5 mb-4">{{ contactInfoHeading }}</h3>
-          <address class="text-black d-flex">
+          <h3 class="h5 mb-4 text-primary">{{ contactInfoHeading }}</h3>
+          <address class="text-primary d-flex">
             <span class="mt-1 icon-room mr-2"></span
             ><span>{{ contactInfo.address }}</span>
           </address>
@@ -102,3 +118,26 @@ const labels = {
     </div>
   </div>
 </template>
+<style scoped>
+.untree_co-section{
+  color: #242b6b;
+  font-size: 18px;
+}
+.row.mb-4 {
+  padding: 5rem 0;
+}
+
+.heading {
+  color: #242b6b;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+.list-unstyled li {
+  margin-bottom: 16px;
+}
+.list-unstyled li a {
+  color: #242b6b;
+  text-decoration: none ;
+}
+</style>
