@@ -1,5 +1,4 @@
 <script setup>
-import { themeColor, siteName } from "../data/items";
 import logo from "../assets/images/logo.svg";
 </script>
 <template>
@@ -27,6 +26,10 @@ import logo from "../assets/images/logo.svg";
             </li>
             <!-- <li class="cta-button-outline"><a href="#">Book a call</a></li> -->
           </ul>
+          <!-- <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block dark d-lg-none"
+            data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a> -->
         </div>
       </div>
     </div>
