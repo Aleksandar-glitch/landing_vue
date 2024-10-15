@@ -77,8 +77,8 @@ const socialItems = [
             <a href="#"><span>Book a Call</span></a>
             <a href="#"><span>Platform</span></a>
             <a href="#"><span>Resouces</span></a>
-            <a href="#"><span>Terms & Conditions</span></a>
-            <a href="#"><span>Privacy Policy</span></a>
+            <a href="/policy"><span>Terms & Conditions</span></a>
+            <a href="/policy"><span>Privacy Policy</span></a>
           </div>
         </div>
       </div>

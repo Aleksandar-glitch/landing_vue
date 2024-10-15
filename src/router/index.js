@@ -5,6 +5,7 @@ import About from '../components/About.vue'
 import Landing from '../pages/landing/index.vue'
 import Platform from '../pages/platform/index.vue'
 import Contact from '../pages/contact/index.vue'
+import Policy from '../pages/policy/index.vue'
 
 // Define your routes
 const routes = [
@@ -22,6 +23,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/policy',
+    name: 'Policy',
+    component: Policy
   }
 ]
 
