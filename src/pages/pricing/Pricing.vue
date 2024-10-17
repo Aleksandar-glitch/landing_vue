@@ -177,7 +177,7 @@ const getPrice = (pkg) => {
           <span class="sub-heading">{{ subHeading5 }}</span><br />
         </div>
       </div>
-      <div class="container py-5">
+      <div class="container py-5 table-responsive-sm">
         <table class="table align-middle text-center">
           <thead>
             <tr>
@@ -368,13 +368,16 @@ const getPrice = (pkg) => {
                 <div class="accordion-body">
                   <p>All accounts enjoy monthly data refreshes for 9,300 locations nationwide. Choose which access level
                     suits your needs.</p>
-                  <p><strong>‍Starter</strong> is our Free account level. Starter enables you to get started fast with immediate access
+                  <p><strong>‍Starter</strong> is our Free account level. Starter enables you to get started fast with
+                    immediate access
                     to nationwide lifestyle data. Typically used by newbies wanting to get comfortable with lifestyle
                     data.</p>
-                  <p>‍<strong>Pro</strong> is our entry level access for professional users. Pro seats include historic data, temporal
+                  <p>‍<strong>Pro</strong> is our entry level access for professional users. Pro seats include historic
+                    data, temporal
                     analysis, download functionality and other tools. Typically used by professional place managers to
                     support monthly place tracking</p>
-                  <p><strong>‍Advanced</strong> is our access level. Advanced seats provide deeper functionality for all locations across
+                  <p><strong>‍Advanced</strong> is our access level. Advanced seats provide deeper functionality for all
+                    locations across
                     Australia, most notably by providing nationwide access to our Explore tool.</p>
                 </div>
               </div>
@@ -496,6 +499,12 @@ const getPrice = (pkg) => {
 
 .pro-section {
   margin-top: -50px;
+}
+
+@media (max-width: 991.98px) {
+  .pro-section {
+    margin-top: -0;
+  }
 }
 
 .italic {
