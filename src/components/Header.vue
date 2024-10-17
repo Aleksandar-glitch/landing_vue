@@ -14,9 +14,7 @@ import logo from "../assets/images/logo.svg";
               <!-- <a href="/about" class="nav-link">How it works</a> -->
               <router-link to="/platform">How It Works</router-link>
             </li>
-            <!-- <li><a href="#" class="nav-link">Pricing</a></li> -->
-            <li><a href="#" class="nav-link">Resources</a></li>
-
+            <li><router-link to="/pricing">Pricing</router-link></li>
             <li><router-link to="/contact">Contact</router-link></li>
           </ul>
           <ul class="js-clone-nav d-none mt-1 d-lg-inline-block site-menu float-right">

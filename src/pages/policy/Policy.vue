@@ -335,6 +335,12 @@ const buttonViewPricing = "View pricing";
     margin: 8px;
     border-radius: 20px;
   }
+  .contents {
+    padding: 24px 36px;
+  }
+  .sub-content {
+    text-align: left;
+  }
 
 }
 </style>
